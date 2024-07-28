@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsnansum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsnansum@esm/index.mjs';
+import dsnansum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsnansum@v0.2.2-esm/index.mjs';
 ```
 
 #### dsnansum( N, x, stride )
@@ -154,7 +154,7 @@ var v = dsnansum.ndarray( 4, x, 2, 1 );
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import dsnansum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsnansum@esm/index.mjs';
+import dsnansum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsnansum@v0.2.2-esm/index.mjs';
 
 function clbk() {
     if ( bernoulli( 0.7 ) > 0 ) {
